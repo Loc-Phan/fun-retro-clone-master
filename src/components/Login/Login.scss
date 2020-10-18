@@ -1,0 +1,11 @@
+.login {
+    text-align: center;
+    margin: 7% auto;
+    &__label {
+        font-size: 38px;
+        color: rgb(142, 36, 170);
+        position: relative;
+        padding: 5px;
+        font-family: "Sonsie One", cursive;
+    }
+}

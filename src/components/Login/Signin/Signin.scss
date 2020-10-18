@@ -1,0 +1,98 @@
+.sign-in {
+    height: 480px;
+    max-height: 565px;
+    width: 400px;
+    position: relative;
+    margin: 3% auto;
+    background: rgb(255, 255, 255);
+    padding: 5px;
+    &__form {
+        font-family: "Arial";
+        &--label {
+            font-family: "Arial";
+            font-weight: bold;
+            font-size: 24px;
+            padding-top: 55px;
+            color: rgb(65, 64, 64);
+        }
+        &--group {
+            margin-left: 20px;
+            margin-right: 20px;
+            margin-bottom: 0px;
+            .input {
+                width: 100%;
+                padding: 2px 0;
+                margin: 5px 0;
+
+                font-family: "Arial";
+
+                border-left: none;
+                border-right: none;
+                border-top: none;
+                border-bottom: 2px solid #999;
+                outline: none;
+                background: transparent;
+
+                &:focus {
+                    border-width: 0px;
+                    outline: none;
+                    border-bottom: 2px solid rgb(148, 34, 180);
+                    transition: all 0.25s ease-in-out 0s;
+                }
+            }
+            .forgot-password {
+                display: block;
+                margin-top: 0px;
+                padding: 0px;
+                text-align: right;
+                color: rgb(142, 36, 170);
+                font-family: "Arial";
+                font-size: 14px;
+            }
+            .forgot-password:hover {
+                text-decoration: none;
+                cursor: pointer;
+            }
+        }
+        &--re-captcha {
+            text-align: center;
+            display: inline-block;
+            margin: auto;
+            position: relative;
+        }
+        &--btn {
+            margin-left: 20px;
+            margin-right: 20px;
+            .login {
+                width: 100%;
+                padding: 10px 10px;
+                cursor: pointer;
+                display: block;
+                margin: auto;
+                border: 0;
+                outline: none;
+                border-radius: 30px;
+                background: rgb(182, 113, 200);
+                &:hover {
+                    background: rgb(184, 76, 211);
+                    transition: all 0.25s ease-in-out 0s;
+                }
+            }
+            .loginGg {
+                width: 100%;
+                padding: 10px 10px;
+                cursor: pointer;
+                display: block;
+                margin: auto;
+                border: 0;
+                outline: none;
+                border-radius: 30px;
+                background: rgb(205, 84, 65);
+                &:hover {
+                    background: rgb(211, 69, 48);
+                    transition: all 0.25s ease-in-out 0s;
+                }
+            }
+        }
+    }
+}
